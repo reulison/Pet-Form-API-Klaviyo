@@ -183,7 +183,7 @@ $savedPetsJson = json_encode($savedPets, JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX
 
 <!-- Form Section -->
 <section class="form-section" id="cadastro">
-    <div class="container">
+    <div class="container form-container">
         <div class="form-wrapper">
             <div class="form-header">
                 <div class="form-badge">📋 Cadastro Gratuito</div>

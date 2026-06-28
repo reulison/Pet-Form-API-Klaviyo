@@ -44,6 +44,10 @@ body {
     padding: 0 24px;
 }
 
+.form-container {
+    padding: 0 5px !important;
+}
+
 /* ===========================
    HERO
 =========================== */
@@ -514,7 +518,7 @@ textarea { resize: vertical; min-height: 100px; }
 =========================== */
 @media (max-width: 640px) {
     .form-row { grid-template-columns: 1fr; }
-    .form-header, .pet-form { padding: 32px 24px; }
+    .form-header, .pet-form { padding: 32px 15px; }
     .pet-block { padding: 20px; }
     .hero { min-height: 80vh; }
 }
