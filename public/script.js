@@ -39,11 +39,11 @@ function buildPetBlock(index, saved) {
 
     const porteOptions = [
         ['', 'Selecione o porte'],
-        ['mini',    'Mini (até 5kg)'],
-        ['pequeno', 'Pequeno (5–10kg)'],
-        ['medio',   'Médio (10–25kg)'],
-        ['grande',  'Grande (25–45kg)'],
-        ['gigante', 'Gigante (acima de 45kg)'],
+        ['Mini (até 5kg)',    'Mini (até 5kg)'],
+        ['Pequeno (5–10kg)', 'Pequeno (5–10kg)'],
+        ['Médio (10–25kg)',   'Médio (10–25kg)'],
+        ['Grande (25–45kg)',  'Grande (25–45kg)'],
+        ['Gigante (acima de 45kg)', 'Gigante (acima de 45kg)'],
     ].map(([v, l]) => `<option value="${v}" ${porte === v ? 'selected' : ''}>${l}</option>`).join('');
 
     const condicaoOptions = [
